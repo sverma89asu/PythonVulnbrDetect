@@ -1,11 +1,15 @@
-## PythonVulnbrDetect
+# PythonVulnbrDetect
 This project is aimed to detect different software vulnerabilities in python source code using machine learning 
 Requirements: 
 Check requirements.txt 
-# Install the required libraries and check the respective versions 
+### Install the required libraries and check the respective versions 
 Dataset:
 Download the dataset from https://zenodo.org/records/3559203#.XeRoytVG2Hs. This is a large dataset.
+
+
 Download the PyCommitsWithDiffs.json 
+
+
 Run :-
 ```
 python JsonToCsvConverter.py
@@ -13,11 +17,17 @@ python JsonToCsvConverter.py
 It will ask you to select 
 Select the downloaded PyCommitsWithDiffs.json and click Open.
 This will extract the data to csv and save in output_extracted.csv .
+
+
 Run :-
 ```
 python CleanCode.py
 ```
+
+
 This will generate cleaned_code_snippets.csv and final_dataset.csv
+
+
 Run :-
 ```
 python MLPredictions.py
