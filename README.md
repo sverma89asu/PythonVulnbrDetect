@@ -1,8 +1,11 @@
 # PythonVulnbrDetect
 This project is aimed to detect different software vulnerabilities in python source code using machine learning 
-Requirements: 
-Check requirements.txt 
-### Install the required libraries and check the respective versions 
+
+# Requirements: 
+```
+pip install -r requirements.txt
+```
+### Running the code to train the models
 Dataset:
 Download the dataset from https://zenodo.org/records/3559203#.XeRoytVG2Hs. This is a large dataset.
 
