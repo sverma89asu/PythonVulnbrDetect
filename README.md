@@ -1,3 +1,10 @@
+# CSE 565 Assignment 2 Group 8
+# Members
+1. Shikha Verma
+2. Viresh Vilas Bhurke
+3. Akshat Jain
+4. Yeain Shukla
+
 # PythonVulnbrDetect
 This project is aimed to detect different software vulnerabilities in python source code using machine learning 
 
