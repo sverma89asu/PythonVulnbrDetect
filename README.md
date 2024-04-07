@@ -1,6 +1,8 @@
 # PythonVulnbrDetect
 This project is aimed to detect different software vulnerabilities in python source code using machine learning 
 
+All the generated csv files are uploaded on the drive and can be used to run the MLPredictions.py directly instead of running the other three python file. https://drive.google.com/drive/folders/1wdTOo2Fj9za1IiIfLJi9-kc4eYMSLFDS
+
 # Requirements: 
 ```
 pip install -r requirements.txt
