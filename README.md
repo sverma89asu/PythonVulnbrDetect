@@ -10,6 +10,11 @@ This project is aimed to detect different software vulnerabilities in python sou
 
 All the generated csv files are uploaded on the drive and can be used to run the MLPredictions.py directly instead of running the other three python file. https://drive.google.com/drive/folders/1wdTOo2Fj9za1IiIfLJi9-kc4eYMSLFDS
 
+# Create a New Virtual Env: 
+```
+python3 -m venv cse
+source cse/bin/activate
+```
 # Requirements: 
 ```
 pip install -r requirements.txt
@@ -23,6 +28,8 @@ Download the PyCommitsWithDiffs.json
 
 
 Run :-
+
+Before running the .py file make sure to set the filepath correctly.
 ```
 python JsonToCsvConverter.py
 ```

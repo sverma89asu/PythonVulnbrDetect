@@ -1,22 +1,8 @@
-import tkinter as tk
-from tkinter import filedialog
 import json
 import csv
 
-# Create a Tkinter root widget
-root = tk.Tk()
-root.withdraw()  # Hide the main window
-
-# Ask the user to select a file
-file_path = filedialog.askopenfilename(title="Select JSON File", filetypes=[("JSON files", "*.json")])
-
-# Check if a file was selected
-if file_path:
-    print("Selected file:", file_path)
-    # Your further processing code here
-else:
-    print("No file selected.")
-    
+#Add complete path to PyCommitsWithDiffs.json file
+file_path = "/PyCommitsWithDiffs.json"
 
 # Function to read JSON from file
 def read_json_file(file_path):
@@ -24,10 +10,8 @@ def read_json_file(file_path):
         data = json.load(file)
     return data
 
-# Path to the JSON file
-#file_path = r'C:\Users\virub\Downloads\plain_command_injection [MConverter.eu].json'
 output_csv = "output_extracted.csv"
-
+print(file_path)
 # Read JSON data from file
 json_data = read_json_file(file_path)
 

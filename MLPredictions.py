@@ -17,6 +17,9 @@ from tensorflow.keras.layers import LSTM, Dense, Embedding, SpatialDropout1D
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from fuzzywuzzy import fuzz
 
 # Get the directory of the script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -64,11 +67,6 @@ plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.show()
 
-
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from fuzzywuzzy import fuzz
 
 # Preprocess data if necessary
 
